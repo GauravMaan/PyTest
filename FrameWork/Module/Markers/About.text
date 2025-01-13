@@ -1,0 +1,59 @@
+13-jan
+
+What are Pytest Markers?
+
+Pytest markers are metadata annotations used to:
+	1.	Categorize tests (e.g., smoke, regression).
+	2.	Control test execution flow (e.g., skip, xfail).
+	3.	Add additional functionality like parameterization, timeout, or dependencies.
+
+Markers allow tests to be logically grouped or skipped based on criteria, making test management more efficient.
+
+Types of Markers
+
+1. Built-in Markers:
+	•	@pytest.mark.skip: Skips the test unconditionally.
+	•	@pytest.mark.skipif: Skips the test conditionally, based on a given expression.
+	•	@pytest.mark.xfail: Marks a test as expected to fail (e.g., due to a known bug).
+	•	@pytest.mark.parametrize: Enables parameterization of a test with multiple sets of inputs.
+	•	@pytest.mark.timeout: Sets a time limit for test execution.
+
+2. Custom Markers:
+	•	Custom markers are defined to create specific test groups like smoke, regression, ui, etc.
+	•	These markers are user-defined and need to be registered in the pytest.ini file to avoid warnings.
+
+Benefits of Markers
+	1.	Test Categorization:
+	•	Markers enable logical grouping of tests, such as smoke, regression, or API tests.
+	•	Example: Run only smoke tests using pytest -m smoke.
+	2.	Selective Execution:
+	•	Run or skip specific tests based on markers.
+	•	Example: Use not <marker> to exclude tests from a specific group.
+	3.	Flexibility:
+	•	Combine markers with parameterized tests or dependencies for complex scenarios.
+	4.	Improved Test Management:
+	•	Markers help organize large test suites by assigning tests to meaningful categories.
+
+Marker Registration
+
+Custom markers must be registered in the pytest.ini file to avoid warnings. This ensures that all developers are aware of the custom markers used in the project.
+
+Example:
+
+[pytest]
+markers =
+    smoke: Marks a test as part of the smoke suite
+    regression: Marks a test as part of the regression suite
+    ui: Marks a test related to the user interface
+
+Best Practices
+	1.	Keep Marker Names Meaningful:
+Use descriptive names that reflect the test’s purpose (e.g., critical, database).
+	2.	Avoid Overuse:
+Use markers sparingly to prevent complexity in test management.
+	3.	Document Custom Markers:
+Clearly document the purpose of each custom marker in the pytest.ini file.
+	4.	Combine with Other Pytest Features:
+Use markers alongside parameterization or dependencies for efficient test setups.
+
+Markers are a core feature of Pytest that enhance test categorization, execution control, and scalability in automated testing frameworks.

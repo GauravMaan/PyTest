@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d539719c-d7c6-4152-86a9-3018bb87ab1e" name="Changes" comment="Final Commit" />
+    <list default="true" id="d539719c-d7c6-4152-86a9-3018bb87ab1e" name="Changes" comment="Final Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Fixture/Fixture_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Fixture/Fixture_test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Fixture/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Markers/About.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Markers/Custom_all_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Markers/Custom_depend_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Markers/Grouping_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Markers/Mark_Skip_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Module/Markers/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +38,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GauravMaan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GauravMaan/PyTest.git&quot;,
+    &quot;accountId&quot;: &quot;1ea40fa7-8770-45fe-af7b-a4184de66d30&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -40,14 +65,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for Demo.TestClass.test_openApp.executor": "Run",
+    "Python tests.Python tests in Demo.py.executor": "Run",
+    "Python tests.Python tests in Fixture_test.py.executor": "Run",
     "Python tests.Python tests in Test_demo.py.executor": "Run",
     "Python.Test_demo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/gauravmaan/Desktop/PyTest",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FrameWork/Module/Fixture" />
+      <recent name="$PROJECT_DIR$/FrameWork/Module/Markers" />
+      <recent name="$PROJECT_DIR$/FrameWork/Module" />
+      <recent name="$PROJECT_DIR$/FrameWork/Module/Fisture" />
+      <recent name="$PROJECT_DIR$/FrameWork" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
