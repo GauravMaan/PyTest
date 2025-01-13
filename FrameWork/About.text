@@ -1,0 +1,50 @@
+13 jan 2025
+
+
+there is 2 type of framework
+1. build in (pytest)
+2. user define:-
+1. Data-Driven Framework
+	•	Definition: A framework where the test data is separated from the test scripts and stored in external sources like Excel, CSV, XML, or databases. The same test script can run with multiple sets of data.
+	•	Purpose: To test the application with various input values without modifying the script.
+2. Data-Driven Framework
+	•	Definition: A framework where the test data is separated from the test scripts and stored in external sources like Excel, CSV, XML, or databases. The same test script can run with multiple sets of data.
+	•	Purpose: To test the application with various input values without modifying the script.
+3. Hybrid Framework
+	•	Definition: A combination of two or more frameworks, usually Data-Driven and Keyword-Driven. It leverages the strengths of each approach.
+	•	Purpose: To maximize test automation efficiency, reusability, and maintainability
+
+Pytest is use to perform unit testing
+
+1. Fixtures
+Fixtures in Pytest are reusable functions to set up and tear down resources required for testing.
+2. Parallel Testing
+Use the pytest-xdist plugin to run tests in parallel
+3. Skip the test
+Skip tests conditionally or manually using Pytest markers.
+4. Grouping Tests
+Group related tests using custom markers or organize them in test classes.
+5. Batch Execution
+Run a batch of specific tests by creating a test suite or a test discovery command.
+6. Parameterization
+Run the same test function with multiple sets of input data using @pytest.mark.parametrize.
+7. Reports
+Generate detailed reports using plugins like pytest-html.
+
+Project-----> Test Suit----> Test Case------> Test Step
+Project-----> Directory/package------> Module(.py)------>Class----->Test Methods
+
+Naming Convention
+Pytest Naming Conventions ensure that tests are automatically discovered by the Pytest framework during execution.
+These conventions help maintain clarity, consistency, and ease of use across the test suite.
+
+1.	File Names:
+	•	Test files should start or end with test_ or _test.
+	example: test_example.py
+2. Class Names:
+	•	If you group tests in a class, the class name should start with Test (no __init__ method required).
+	•	Example: class TestMathOperations:
+                        def test_addition(self):
+                            assert 1 + 1 == 2
+
+3. Test Method names should be start with "test",as in test_example()
