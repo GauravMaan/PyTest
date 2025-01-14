@@ -1,0 +1,16 @@
+14 jan 2025
+Logging in Pytest
+
+Logging in Pytest allows capturing and displaying detailed runtime information during test execution.
+It helps developers debug issues by recording messages about test behavior,
+errors, and other useful runtime data.
+
+Logging Levels
+
+	1.	DEBUG: Detailed information, typically for diagnosing problems.
+	2.	INFO: Confirmation that things are working as expected.
+	3.	WARNING: Indication of something unexpected but not causing the test to fail.
+	4.	ERROR: A serious problem causing a test or functionality to fail.
+	5.	CRITICAL: A severe issue indicating the program may be unable to continue.
+
+date---> time---> method_name---> massage
