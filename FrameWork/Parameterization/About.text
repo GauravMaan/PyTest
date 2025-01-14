@@ -1,0 +1,5 @@
+Parameterization in Pytest allows you to run the same test function multiple times with different input values.
+This reduces code duplication and makes tests more scalable and organized.
+
+How to Use Parameterization in Pytest
+Pytest provides the @pytest.mark.parametrize decorator for parameterization.

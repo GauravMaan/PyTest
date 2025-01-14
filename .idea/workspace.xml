@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d539719c-d7c6-4152-86a9-3018bb87ab1e" name="Changes" comment="Final Commit">
-      <change afterPath="$PROJECT_DIR$/FrameWork/Loggings/About.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrameWork/Loggings/Log_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Parallel/About.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Parallel/Para_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Parameterization/About.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Parameterization/Demo_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Parameterization/Para_term_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Parameterization/Param_Run_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrameWork/Parameterization/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736755030159</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final Commit">
+      <option name="closed" value="true" />
+      <created>1736834876314</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736834876314</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

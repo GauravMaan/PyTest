@@ -1,0 +1,15 @@
+Parallel Testing in Pytest
+
+Parallel testing allows running multiple tests simultaneously,
+reducing the total execution time for the test suite.
+Pytest achieves parallel testing using the pytest-xdist plugin,
+which enables distributing tests across multiple CPUs or hosts.
+
+Features of Parallel Testing in Pytest
+	1.	Parallel Workers:
+Tests are distributed across multiple processes (workers). Each worker runs independently on a subset of tests.
+	2.	Load Balancing:
+Use --dist to define how tests are distributed:
+	•	load scope: Groups tests by the scope (module/class) and balances them across workers.
+	•	loadfile: Distributes tests based on the number of files.
+
