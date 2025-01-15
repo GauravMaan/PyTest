@@ -48,3 +48,10 @@ These conventions help maintain clarity, consistency, and ease of use across the
                             assert 1 + 1 == 2
 
 3. Test Method names should be start with "test",as in test_example()
+
+
+15 jan 2025
+
+allure report
+pytest -v -s --alluredir=FrameWork/Report FrameWork/Report/Allure_test.py
+allure serve /Users/gauravmaan/Desktop/PyTest/FrameWork/Report
