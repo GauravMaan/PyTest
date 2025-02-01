@@ -1,0 +1,124 @@
+https://www.atlassian.com/git  9for git more information)
+
+🔹 Git Setup (First-Time)
+	1.	Initialize Git in your framework folder
+
+git init
+
+
+	2.	Set your username and email (if not already set)
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+🔹 Connecting to GitHub
+	1.	Check if a remote is already added
+
+git remote -v
+
+
+	2.	Add a remote repository (Replace with your actual repo URL)
+
+git remote add origin https://github.com/your-username/your-repo.git
+
+
+	3.	Verify the remote repository
+
+git remote -v
+
+🔹 Basic Git Workflow
+
+1️⃣ Add Files
+	•	Stage all changes
+
+git add .
+
+
+	•	Stage a specific file
+
+git add filename.py
+
+
+
+2️⃣ Commit Changes
+	•	Commit changes with a message
+
+git commit -m "Added new feature"
+
+
+
+3️⃣ Push to GitHub
+	•	First push (if the branch is not set yet)
+
+git push -u origin main
+
+
+	•	Regular push
+
+git push
+
+🔹 Pull Latest Changes from GitHub
+	•	Fetch and merge changes from the remote repository
+
+git pull origin main
+
+🔹 Branch Management
+	•	Create a new branch
+
+git branch feature-branch
+
+
+	•	Switch to a branch
+
+git checkout feature-branch
+
+
+	•	Create and switch to a new branch
+
+git checkout -b new-branch
+
+
+	•	Merge a branch into main
+
+git checkout main
+git merge feature-branch
+
+
+	•	Delete a branch
+
+git branch -d feature-branch
+
+🔹 Undo Changes
+	•	Unstage a file (before commit)
+
+git reset HEAD filename.py
+
+
+	•	Undo last commit (but keep changes)
+
+git reset --soft HEAD~1
+
+
+	•	Hard reset (removes all changes)
+
+git reset --hard HEAD~1
+
+🔹 Cloning a Repository
+	•	Clone a GitHub repository
+
+git clone https://github.com/your-username/your-repo.git
+
+
+	•	Clone a repository into a specific folder
+
+git clone https://github.com/your-username/your-repo.git my-framework
+
+🔹 Checking Status and Logs
+	•	Check the current status
+
+git status
+
+
+	•	Show commit history
+
+git log --oneline --graph --decorate --all
